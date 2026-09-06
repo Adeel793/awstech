@@ -53,7 +53,7 @@ Connect to EC2
 -	Secure Shell provides strong password authentication and public key authentication, as well as encrypted data communications between two computers connecting over an open network, such as the internet.
 __________________________________________
 
-![SSH Keys Diagram](assets/symmetricetric-encryption.png
+assets/symmetric-vs-asymmetric-asymmetric-encryption-example.png
 
 
 
