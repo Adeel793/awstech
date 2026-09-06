@@ -61,6 +61,11 @@ __________________________________________
   
 ![Public EC2 Admin](assets/public-ec2-admin-ssh.png)
 
+# SSH into the EC2 instance - 2
+___________________________________________
+- ssh into private instance with ssh agent forwarding
+
+![Private EC2 SSH Key Forwarding](assets/private-ec2-ssh-key-forwarding.png)
 
 
 
