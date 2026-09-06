@@ -49,6 +49,8 @@ A **Private IP** address is how the VPC identifies you. A private IP address is 
 A **Elastic IP** address is a Public IP address which is static.
 ________________________________________
 Connect to EC2
-•	SSH, also known as Secure Shell or Secure Socket Shell, is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network.
-•	Secure Shell provides strong password authentication and public key authentication, as well as encrypted data communications between two computers connecting over an open network, such as the internet.
+-	SSH, also known as Secure Shell or Secure Socket Shell, is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network.
+-	Secure Shell provides strong password authentication and public key authentication, as well as encrypted data communications between two computers connecting over an open network, such as the internet.
+__________________________________________
 
+assets/symmetric-vs-asymmetric-asymmetric-encryption.png
