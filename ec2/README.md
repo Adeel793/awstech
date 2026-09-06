@@ -56,8 +56,10 @@ __________________________________________
 ![Symmetric vs Asymmetric Encryption](assets/symmetric-vs-asymmetric-asymmetric-encryption-example.png)
 
 # SSH into the EC2 instance - 1
-- ssh int public instance using private key
-![Private EC2 SSH Key Forwarding](assets/private-ec2-ssh-key-forwarding.png)
+__________________________________________
+- ssh into public instance using private key
+  
+![Public EC2 Admin](assets/public-ec2-admin-ssh.png)
 
 
 
