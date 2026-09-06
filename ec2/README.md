@@ -113,5 +113,24 @@ _______________________________________________________
 
 ![Web Server with RDS](assets/webserver-elastic-ip-rds.png)
 
+----------------------------------------------------------
+
+# Web Server with RDS - Automation
 
 
+![Automation with Lambda](assets/webserver-lambda-create-instance-from-ami.png)
+
+
+# Hlpful Links
+- [Securely Connect to Linux Instances Running in a Private Amazon VPC](https://aws.amazon.com/blogs/security/securely-connect-to-linux-instances-running-in-a-private-amazon-vpc)
+- [Access instance metadata for an EC2 instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html)
+- [A Case Study of the Capital One Data Breach](http://web.mit.edu/smadnick/www/wp/2020-16.pdf)
+- [AWS Enhances Metadata Service Security with IMDSv2](https://medium.com/@shurmajee/aws-enhances-metadata-service-security-with-imdsv2-b5d4b238454b)
+- [Capital One Data Breach: A Cloud Security Case Study](https://medium.com/swlh/capital-one-data-breach-a-cloud-security-case-study-7a06ec900460)
+- [Install a web server on your EC2 instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateWebServer.html)
+- [5 Differences Between Symmetric vs Asymmetric Encryption](https://sectigostore.com/blog/5-differences-between-symmetric-vs-asymmetric-encryption/)
+- [What is SSH? Understanding SSH and its encryption techniques](https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work)
+- [How to setup SSH key based authentication on Linux server](https://dyclassroom.com/reference-server/how-to-setup-ssh-key-based-authentication-on-linux-server)
+- [Why Authentication Using SSH Public Key is Better than Using Password and How Do They Work?](https://blog.runcloud.io/why-authentication-using-ssh-public-key-is-better-than-using-password-and-how-do-they-work/)
+- [How SSH encrypts communications, when using password-based authentication?](https://stackoverflow.com/questions/59555705/how-ssh-encrypts-communications-when-using-password-based-authentication)
+- [Connect to your DreamCompute Instance with SSH keys in Window](https://help.dreamhost.com/hc/en-us/articles/115001764232-Connect-to-your-DreamCompute-Instance-with-SSH-keys-in-Windows)
