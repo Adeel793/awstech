@@ -52,6 +52,6 @@ Connect to EC2
 -	SSH, also known as Secure Shell or Secure Socket Shell, is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network.
 -	Secure Shell provides strong password authentication and public key authentication, as well as encrypted data communications between two computers connecting over an open network, such as the internet.
 __________________________________________
-assets/symmetric-vs-asymmetric-asymmetric-encryption.png
+/assets/symmetric-vs-asymmetric-asymmetric-encryption.png
 
 
