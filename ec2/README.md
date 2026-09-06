@@ -67,6 +67,51 @@ ___________________________________________
 
 ![Private EC2 SSH Key Forwarding](assets/private-ec2-ssh-key-forwarding.png)
 
+# SSH into the EC2 instance - 3
+
+```bash
+eval `ssh-agent -s`
+ssh-add -k <PEM FILE>
+ssh-add -l
+ssh -A <user>@<IP ADDRESS>
+```
+# Demo
+________________________________________________
+- Web Server with RDS
+- Web Server crash and Create an AMI
+- Create new Web Server from the AMI
+- Attach Elastic IP to avoid redistributing the IP
+- Instance MetaData
+- Instance UserData
+
+# Instance MetaData and UserData
+
+```bash
+  #!/bin/bash
+  yum update -y
+  yum install -y httpd
+  systemctl start httpd
+  systemctl enable httpd
+  echo "Hello World $(hostname -f)" > /var/www/html/index.html
+
+  curl http://169.254.169.254/latest/meta-data/local-ipv4
+  
+  curl http://169.254.169.254/latest/meta-data/iam/security-credentials/EC2_S3FullAccessRole
+
+  curl http://169.254.169.254/latest/user-data
+```
+_____________________________________________________
+
+```bash
+  sudo mkfs -t ext4 /dev/xvdb
+  sudo mount /dev/xvdb /mnt
+  sudo umount /mnt
+```
+_______________________________________________________
+
+# Web Server with RDS
+
+![Web Server with RDS](assets/webserver-elastic-ip-rds.png)
 
 
 
