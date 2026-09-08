@@ -57,4 +57,9 @@ The real power comes when these commands are combined with PowerShell, Bash, Pyt
 ```bash
 aws sts get-caller-identity
 ```
+___________________________________________________________
 
+![cli-s3-lambda-ec2](assets/cli-s3-lambda-ec2.png)
+___________________________________________________________
+
+![cli-s3](assets/cli-s3.png)
