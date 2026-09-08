@@ -63,3 +63,12 @@ ___________________________________________________________
 ___________________________________________________________
 
 ![cli-s3](assets/cli-s3.png)
+
+**Helpful Links**
+
+- [AWS CLI](https://docs.aws.amazon.com/cli/)
+- [AWS CLI for S3](https://docs.aws.amazon.com/cli/latest/reference/s3/)
+- [AWS CLI for Lambda](https://docs.aws.amazon.com/cli/latest/reference/lambda/)
+- [AWS CLI for EC2](https://docs.aws.amazon.com/cli/latest/reference/ec2/)
+- [AWS CLI command examples](https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-code-examples.html)
+- [Security in the AWS CLI](https://docs.aws.amazon.com/cli/v1/userguide/security.html)
