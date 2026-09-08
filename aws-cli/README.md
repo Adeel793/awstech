@@ -53,4 +53,8 @@ The real power comes when these commands are combined with PowerShell, Bash, Pyt
 
 ***As cloud environments continue to grow, mastering AWS CLI isn't just a nice-to-have skill, it's an essential tool for modern cloud operations.***
 
+**Bonus command that every AWS engineer should know:**
+```bash
+aws sts get-caller-identity
+```
 
