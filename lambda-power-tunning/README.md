@@ -51,7 +51,15 @@ When memory increased from 128 MB (worst) for Cost and Performance to 512, notic
 ![lambda-512](assets/lambda-512.png)
 _____________________________________
 
+# Key Observations From Graph
 
+![lambda-graph-observations](assets/lambda-graph-observations.png)
+
+One can conclude by looking at the Graph 256 MB is best for Cost and Performance
+__________________________________________________________________
+
+## Business takeaway
+The graph suggests that 256 MB is the sweet spot for this workload. Increasing memory from 256 MB to 512 MB did not improve performance. In fact, execution time increased while cost also increased.
 
 
 
