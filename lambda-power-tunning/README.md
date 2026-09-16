@@ -28,6 +28,28 @@ This project demonstrates how AWS Lambda Power Tuning can be used to identify th
 
 The solution follows a serverless architecture using Postman to send HTTPS requests to API Gateway, which in turn invokes Lambda Function.
 
+![serverless-microservice-architecture](assets/serverless-microservice-architecture.png)
+
+
+Using Postman-generated API requests, multiple Lambda memory configurations were tested to evaluate the relationship between execution time and cost.
+___________________________________________________________________________________________
+
+
+## Objectives
+- Improve Lambda execution performance
+- Reduce API response times
+- Optimise operational costs
+- Identify the optimal performance-to-cost ratio
+- Establish a repeatable performance testing approach
+______________________________________________________
+
+
+## At 512 MB
+
+When memory increased from 128 MB (worst) for Cost and Performance to 512, noticed that cost went down slightly low, but overall performance increased significantly. Cost is still higher and could be optimised further.
+
+![lambda-512](assets/lambda-512.png)
+_____________________________________
 
 
 
